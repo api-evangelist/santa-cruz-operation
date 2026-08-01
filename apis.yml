@@ -1,7 +1,24 @@
 aid: santa-cruz-operation
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/santa-cruz-operation.png
 name: Santa Cruz Operation
-description: Santa Cruz Operation is a company surfaced as a portfolio company of accel and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Santa Cruz Operation (SCO) was an American software company founded in 1979 in Santa Cruz,
+  California, best known for its Unix operating systems for Intel x86 hardware — Xenix (developed with
+  Microsoft), SCO UNIX, SCO OpenServer, and UnixWare. The company later reorganized as Tarantella, Inc.
+  and The SCO Group, which became widely known for the SCO v. IBM Linux litigation beginning in 2003. The
+  SCO Group filed for Chapter 11 bankruptcy in 2007, and its Unix product assets were subsequently sold to
+  UnXis, later renamed Xinuos. The historic Santa Cruz Operation is defunct and operates no modern
+  developer platform or public API; this record is retained for network completeness.
 url: https://raw.githubusercontent.com/api-evangelist/santa-cruz-operation/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +28,22 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Unix
+- Operating Systems
+- Enterprise Software
+- Legacy Technology
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
